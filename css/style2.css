@@ -531,6 +531,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__content{
+    display: flex;
     font-size: 22px;
     line-height: 1.18;
     letter-spacing: -0.0817144px;
@@ -704,7 +705,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     
-
     .intro__title{
         font-size: 22px;
         line-height: 26px;
@@ -752,6 +752,7 @@ h1, h2, h3, h4, h5, h6 {
         letter-spacing: -0.408px;
         margin: 10px 0 ;
         color: #007AFF;
+        margin-left: 150px;
         text-decoration: none;
     }
     
@@ -775,6 +776,13 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
     }
 
+    
+    .team__block{
+        display: block;
+    }
+    .team__hidden{
+        display: none;
+    }
     .teams__name{
         font-size: 16px;
         line-height: 19px;
