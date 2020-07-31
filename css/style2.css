@@ -860,7 +860,7 @@ h1, h2, h3, h4, h5, h6 {
     .bar{
         height: 140px;
         width: 140px;
-        margin: 6px;
+        margin: 16px;
     }
     .container1{
         display: flex;
@@ -935,7 +935,24 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 }
+@media (max-width: 410px){
+    .container1 {
+        padding: 30px;
+    }
+}
+@media (max-width: 375px){
+    .container1 {
+        padding: 20px;
+    }
+    .bar {
+        margin: 6px;
+    }
+}
+
 @media (max-width: 320px) {
+    .container1 { 
+        padding: 0;
+    }
     .teams__info {
         padding: 11px;
     }
