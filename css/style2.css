@@ -390,6 +390,10 @@ h1, h2, h3, h4, h5, h6 {
 .section__item.section__progres__bar{  
      width: 50%;
 }
+
+.btn__view{
+    display: none;
+}
 .container1{
     margin-left: 60px;    
     display: flex;
@@ -740,6 +744,17 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0;
     }
 
+    .btn__view{
+        display: flex;
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 300;
+        letter-spacing: -0.408px;
+        margin: 10px 0 ;
+        color: #007AFF;
+        text-decoration: none;
+    }
+    
     .section__team{
         background: #FAFAFA;
         border-radius: 16px;
