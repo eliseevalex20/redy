@@ -8,11 +8,6 @@ document.getElementById('dark1').onclick = function() {
     document.getElementById('main').classList.remove('dark');
     document.getElementById('main').classList.add('light');
   }
-  document.getElementById('view').onclick = function() {
-    document.getElementById('team__hidden').classList.remove('team__hidden');
-    document.getElementById('team__hidden').classList.add('team__block');
-    document.getElementById('view').classList.add('team__hidden');
-  }
 
 
   const anchors = document.querySelectorAll('a.up')
@@ -29,4 +24,12 @@ document.getElementById('dark1').onclick = function() {
     })
   }
   
-  
+  teamToShow = document.getElementsByClassName('team__hidden');
+  btn = document.getElementById('btn-show');
+
+ btn.onclick = () => {
+   console.log('dd')
+  for (let i = 0; i<teamToShow.length; i++) {
+    teamToShow[i].style.display = 'flex';
+  }
+ }

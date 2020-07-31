@@ -777,9 +777,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     
-    .team__block{
-        display: block;
-    }
     .team__hidden{
         display: none;
     }
