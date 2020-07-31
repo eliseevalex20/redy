@@ -550,6 +550,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 680px;
     margin-left: 10px;
 }
+.mob{
+    display: block;
+}
+.mob1{
+    display: none;
+}
 @media (max-width: 1230px) {
     /* Intro */
     .intro__title {
@@ -599,6 +605,9 @@ h1, h2, h3, h4, h5, h6 {
 }    
 
 @media (max-width: 990px) {
+    .mob{
+        display: block;
+    }
     /* Intro */
     .intro__title {
         font-size: 28px; 
@@ -674,7 +683,12 @@ h1, h2, h3, h4, h5, h6 {
     html, body{
         overflow-x: hidden;
     }
-    
+    .mob{
+        display: none;
+    }
+    .mob1{
+        display: block;
+    }
 
     .header__link{
         font-size: 14px;
@@ -939,6 +953,9 @@ h1, h2, h3, h4, h5, h6 {
     .container1 {
         padding: 30px;
     }
+    .mob{
+        display: none;
+    }
 }
 @media (max-width: 375px){
     .container1 {
@@ -947,9 +964,15 @@ h1, h2, h3, h4, h5, h6 {
     .bar {
         margin: 6px;
     }
+    .mob{
+        display: none;
+    }
 }
 
 @media (max-width: 320px) {
+    .mob{
+        display: none;
+    }
     .container1 { 
         padding: 0;
     }
