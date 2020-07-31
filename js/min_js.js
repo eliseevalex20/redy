@@ -277,6 +277,7 @@ $(function(){
 });
 
 $(function(){
+
     $('.multiple-items').slick({
         infinite: true,
         slidesToShow: 2,
@@ -287,14 +288,26 @@ $(function(){
         slidesToShow: 1,
         slidesToScroll: 1
     });
-})
 
-$(function(){
-    if ( $(window).width() < 350 ) {
-        $('.multiple-items_Personal').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1
-        });
-    }
-  });
+    $('.multiple-items_mob').slick({
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+})
