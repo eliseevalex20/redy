@@ -585,9 +585,10 @@ h1, h2, h3, h4, h5, h6 {
        
     }
 
-    .section__item{
+    .section__item {
         padding: 12px 18px 7px;
-        margin: auto;
+        margin: inherit;
+        width: 100%;
     }
     .section__img {
         width: 49%;
@@ -680,6 +681,15 @@ h1, h2, h3, h4, h5, h6 {
 
     .intro__button.second{
         margin-top: 12px;
+    }
+    .item2 img {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    width: 100%;
+    }
+    .slider .next {
+        left: 90%!important;
     }
 }
 
