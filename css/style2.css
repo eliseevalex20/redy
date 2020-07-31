@@ -665,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
     .section__item.section__progres__bar {
         display: flex;
         flex-wrap: wrap;
-        padding: 28px;
+        padding: 0;
     }
 }
 
@@ -857,8 +857,20 @@ h1, h2, h3, h4, h5, h6 {
         line-height: 23px;
         letter-spacing: -0.0742858px;
     }
-
+    .bar{
+        height: 140px;
+        width: 140px;
+        margin: 6px;
+    }
+    .container1{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 20px;
+    }
     .section__item.section__progres__bar{
+        width: 100%;
         background: #FAFAFA;
         border-radius: 16px;
     }
