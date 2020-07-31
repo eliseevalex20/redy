@@ -277,6 +277,7 @@ $(function(){
 });
 
 $(function(){
+
     $('.multiple-items').slick({
         infinite: true,
         slidesToShow: 2,
@@ -287,7 +288,6 @@ $(function(){
         slidesToShow: 1,
         slidesToScroll: 1
     });
-})
 
 $(function(){
     if ( $(window).width() < 350 ) {
