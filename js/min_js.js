@@ -276,27 +276,5 @@ $(function(){
     })
 });
 
-$(function(){
-
-    $('.multiple-items').slick({
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1
-    });
-    $('.multiple-items_Personal').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
-
-$(function(){
-    if ( $(window).width() < 350 ) {
-        $('.multiple-items_Personal').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1
-        });
-    }
-  });
 
   
