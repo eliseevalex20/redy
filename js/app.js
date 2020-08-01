@@ -1,14 +1,36 @@
+let main = document.getElementById('main')
+
+
+if(localStorage.getItem('hide') =='dark'){
+  main.classList.add('dark');
+}
+else{
+  main.classList.add('light');
+}
+
 document.getElementById('dark1').onclick = function() {
-    document.getElementById('main').classList.remove('light');
-    document.getElementById('main').classList.add('dark');
-    document.getElementById('main').classList.add('transition');
+  main.classList.remove('light');
+  main.classList.add('dark');
+  main.classList.add('transition');
+    
+    const idRemember = document.getElementById('main');
+    idRemember.style.color = (idRemember.style.color == '#1A8FE8');
+      
+    localStorage.setItem('hide', 'dark');
     
   }
   document.getElementById('light1').onclick = function() {
-    document.getElementById('main').classList.remove('dark');
-    document.getElementById('main').classList.add('light');
+    main.classList.remove('dark');
+    main.classList.add('light');
+
+        
+    const idRemember = document.getElementById('main');
+    idRemember.style.color = (idRemember.style.color == '#1A8FE8');
+      
+    localStorage.setItem('hide', 'light');
   }
 
+  
 
   const anchors = document.querySelectorAll('a.up')
   for (let anchor of anchors) {
@@ -26,10 +48,11 @@ document.getElementById('dark1').onclick = function() {
   
   teamToShow = document.getElementsByClassName('team__hidden');
   btn = document.getElementById('btn-show');
-
+if(btn)
  btn.onclick = () => {
    console.log('dd')
   for (let i = 0; i<teamToShow.length; i++) {
     teamToShow[i].style.display = 'flex';
   }
+    btn.style.display = 'none';
  }

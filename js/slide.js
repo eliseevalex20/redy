@@ -18,7 +18,6 @@ function currentSlide(n) {
 function showSlides(n) {
 
     if (document.documentElement.clientWidth < 500) {
-        console.log(document.documentElement.clientWidth)
         var i;
         var slides = document.getElementsByClassName("item");
         var dots = document.getElementsByClassName("slider-dots_item");
@@ -43,7 +42,6 @@ function showSlides(n) {
         dots[slideIndex - 1].className += " active";
     } 
     if (document.documentElement.clientWidth > 500) {
-        console.log(document.documentElement.clientWidth)
         var i;
         var slides = document.getElementsByClassName("item");
         var dots = document.getElementsByClassName("slider-dots_item");
@@ -93,7 +91,6 @@ function currentSlide1(n) {
 function showSlides1(n) {
 
     if (document.documentElement.clientWidth < 500) {
-        console.log(document.documentElement.clientWidth)
         var i;
         var slides = document.getElementsByClassName("item1");
         var dots = document.getElementsByClassName("slider-dots_item1");
@@ -118,7 +115,6 @@ function showSlides1(n) {
         dots[slideIndex1 - 1].className += " active";
     } 
     if (document.documentElement.clientWidth > 500) {
-        console.log(document.documentElement.clientWidth)
         var i;
         var slides = document.getElementsByClassName("item1");
         var dots = document.getElementsByClassName("slider-dots_item1");
@@ -167,7 +163,6 @@ function currentSlide2(n) {
 function showSlides2(n) {
 
     if (document.documentElement.clientWidth < 500) {
-        console.log(document.documentElement.clientWidth)
         var i;
         var slides = document.getElementsByClassName("item2");
         var dots = document.getElementsByClassName("slider-dots_item2");
@@ -192,7 +187,6 @@ function showSlides2(n) {
         dots[slideIndex2 - 1].className += " active";
     } 
     if (document.documentElement.clientWidth > 500) {
-        console.log(document.documentElement.clientWidth)
         var i;
         var slides = document.getElementsByClassName("item2");
         var dots = document.getElementsByClassName("slider-dots_item2");
