@@ -50,7 +50,7 @@ document.getElementById('dark1').onclick = function() {
   btn = document.getElementById('btn-show');
 if(btn)
  btn.onclick = () => {
-   console.log('dd')
+
   for (let i = 0; i<teamToShow.length; i++) {
     teamToShow[i].style.display = 'flex';
   }

@@ -235,7 +235,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
 .content__section{
     margin-top: 42px;
     position: relative;
@@ -602,10 +601,7 @@ h1, h2, h3, h4, h5, h6 {
     .section__text {
         font-size: 15.9px;
     }
-    .section__team {
-        max-height: 617px;
-    }
-
+  
     .progres__bar__item {
         min-width: 280px;
     }
@@ -657,9 +653,7 @@ h1, h2, h3, h4, h5, h6 {
     .section__text {
         font-size: 13.9px;
     }
-    .section__team {
-        max-height: 524px;
-    }
+   
     .teams__prof {
         height: 48px;
         display: flex;
@@ -754,14 +748,13 @@ h1, h2, h3, h4, h5, h6 {
         letter-spacing: -0.408px;
         margin: 10px 0 ;
         color: #007AFF;
-        margin-left: 150px;
         text-decoration: none;
     }
     
     .section__team{
         background: #FAFAFA;
         border-radius: 16px;
-        max-height: 1036px;
+        
     }
 
     .section__item.section__team {
@@ -812,6 +805,12 @@ h1, h2, h3, h4, h5, h6 {
         text-align: left;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .view__team{
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
 
