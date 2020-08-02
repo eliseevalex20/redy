@@ -2,30 +2,27 @@
     max-width: 100%;
     position: relative;
     margin: auto;
-    height: 93%;
+    height: 100%;
 }
 /* шоб масштабировать по отношению к родительскому элементу */
 .slider .item img {
-    object-fit: cover;
-    width: auto;
-    height: auto;
-    max-height: 678px;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
     border: none !important;
     box-shadow: none !important;
 }
 .slider .item1 img {
-    object-fit: cover;
-    width: auto;
-    height: auto;
-    max-height: 678px;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
     border: none !important;
     box-shadow: none !important;
 }
 .slider .item2 img {
-    object-fit: cover;
-    width: auto;
-    height: auto;
-    max-height: 678px;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
     border: none !important;
     box-shadow: none !important;
 }
@@ -62,10 +59,11 @@
     text-shadow: 1px 1px 1px #000, 0 0 1em #000;
 }
 /* Кружочки епт */
-.slider-dots {
+.slider-dots, .slider-dots1, .slider-dots2 {
     text-align: center;
     position: absolute;
-    width: inherit;
+    bottom: 0px;
+    width: 100%;
 }
 .slider-dots_item{
     cursor: pointer;
@@ -88,7 +86,7 @@
     animation-name: fade;
     animation-duration: 1.5s;
     height: 100%;
-    width: 100%;
+    width: 50%;
 }
 .slider .item1 {
     -webkit-animation-name: fade;
@@ -96,7 +94,7 @@
     animation-name: fade;
     animation-duration: 1.5s;
     height: 100%;
-    width: 100%;
+    width: 50%;
 }
 .slider .item2 {
     -webkit-animation-name: fade;
@@ -120,5 +118,10 @@
     }
     to {
         opacity: 1
+    }
+}
+@media (max-width: 768px) {
+    .slider .next {
+        left: 90%;
     }
 }
