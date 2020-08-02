@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 23px 0;
+    padding: 11px 0;
     background: var(--secondary-shadow_iner);
     
  
@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__link{
     display: inline-block;
     vertical-align: top;
-    margin: 0 23px;
+    padding: 11px 23px;
     font-weight: 400;
     text-decoration: none;
     color: var(--color-switch);
@@ -220,6 +220,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__link:hover {
+    background: rgba(182, 182, 182, 0.5);
+    border-radius: 10px;
     color:#1A8FE8;
 }
 
@@ -230,7 +232,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 42px 40px;
     background: var(--secondary-color);
 }
-
 
 
 
@@ -390,6 +391,10 @@ h1, h2, h3, h4, h5, h6 {
 .section__item.section__progres__bar{  
      width: 50%;
 }
+
+.btn__view{
+    display: none;
+}
 .container1{
     margin-left: 60px;    
     display: flex;
@@ -527,6 +532,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__content{
+    display: flex;
     font-size: 22px;
     line-height: 1.18;
     letter-spacing: -0.0817144px;
@@ -595,10 +601,7 @@ h1, h2, h3, h4, h5, h6 {
     .section__text {
         font-size: 15.9px;
     }
-    .section__team {
-        max-height: 617px;
-    }
-
+  
     .progres__bar__item {
         min-width: 280px;
     }
@@ -650,9 +653,7 @@ h1, h2, h3, h4, h5, h6 {
     .section__text {
         font-size: 13.9px;
     }
-    .section__team {
-        max-height: 524px;
-    }
+   
     .teams__prof {
         height: 48px;
         display: flex;
@@ -700,7 +701,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     
-
     .intro__title{
         font-size: 22px;
         line-height: 26px;
@@ -740,10 +740,21 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0;
     }
 
+    .btn__view{
+        display: flex;
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 300;
+        letter-spacing: -0.408px;
+        margin: 10px 0 ;
+        color: #007AFF;
+        text-decoration: none;
+    }
+    
     .section__team{
         background: #FAFAFA;
         border-radius: 16px;
-        max-height: 1036px;
+        
     }
 
     .section__item.section__team {
@@ -760,6 +771,10 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
     }
 
+    
+    .team__hidden{
+        display: none;
+    }
     .teams__name{
         font-size: 16px;
         line-height: 19px;
@@ -790,6 +805,12 @@ h1, h2, h3, h4, h5, h6 {
         text-align: left;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .view__team{
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
 

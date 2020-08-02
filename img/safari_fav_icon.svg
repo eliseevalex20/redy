@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Safari Favourites Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="57.0674782%" cy="37.8329024%" fx="57.0674782%" fy="37.8329024%" r="133.367734%" id="radialGradient-1">
+            <stop stop-color="#F8F8F8" offset="0%"></stop>
+            <stop stop-color="#D6D6D6" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Safari-Favourites-Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#radialGradient-1)" x="0" y="0" width="300" height="300"></rect>
+        <text id="a" font-family="Abibas" font-size="280" font-weight="400" letter-spacing="-1.0400012" fill="#6D7278">
+            <tspan x="83.3200006" y="220">a</tspan>
+        </text>
+    </g>
+</svg>
