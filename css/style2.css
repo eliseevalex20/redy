@@ -254,6 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section__item {
     width: 50%;
+    position: relative;
 }
 
 .section__item.left__item{
@@ -326,8 +327,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .team__item {
-    min-width: 240px;
-    width:30%;
+    min-width: 190px;
+    width: calc(100%/3 - 11px);
     margin: 5px;
     background: #FAFAFA;
     border: 1px solid #D2D2D2;
@@ -378,14 +379,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .spot__team{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 33%;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: -0.0594286px;
     color: rgba(0, 0, 0, 0.25);
-}
-
-.spot__content{
-    margin: 167px 63px;
 }
 
 .section__item.section__progres__bar{  
@@ -565,14 +566,18 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1230px) {
     /* Intro */
     .intro__title {
-        font-size: 43px; 
+        font-size: 39px; 
     }
     .intro__info {
-        font-size: 25px; 
+        font-size: 22px; 
     }
     .intro__img {
         max-width: 340px;
         padding-top: 40px;
+    }
+
+    .intro__rew {
+        font-size: 22px;
     }
     
      /* section */
@@ -599,12 +604,17 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .section__text {
-        font-size: 15.9px;
+        font-size: 1.5vw;
     }
   
     .progres__bar__item {
         min-width: 280px;
     }
+
+    .bar {
+        margin: 26px;
+    }
+
 }    
 
 @media (max-width: 990px) {
@@ -758,7 +768,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .section__item.section__team {
-        width: auto;
+        width: 100%;
     }
 
     .team__photo {
@@ -788,8 +798,11 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 14px;
         line-height: 16px;
         padding-bottom: 8px;
+        display: flex;
         letter-spacing: -0.0520001px;
+        justify-content: left;
         color: #6D7278;
+        width: 100%;
     }
 
     .teams__contatc{

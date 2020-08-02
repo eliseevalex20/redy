@@ -38,6 +38,7 @@ function showSlides(n) {
         
         }
         slides[slideIndex - 1].style.display = "block";
+        slides[slideIndex].style.display = "block";
     
         dots[slideIndex - 1].className += " active";
     } 
@@ -111,6 +112,7 @@ function showSlides1(n) {
         
         }
         slides[slideIndex1 - 1].style.display = "block";
+        slides[slideIndex1].style.display = "block";
     
         dots[slideIndex1 - 1].className += " active";
     } 
