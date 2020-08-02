@@ -1,7 +1,7 @@
 let main = document.getElementById('main')
 
 
-if(localStorage.getItem('hide') =='dark'){
+if(localStorage.getItem('theme') =='dark'){
   main.classList.add('dark');
 }
 else{
@@ -13,10 +13,10 @@ document.getElementById('dark1').onclick = function() {
   main.classList.add('dark');
   main.classList.add('transition');
     
-    const idRemember = document.getElementById('main');
+    let idRemember = document.getElementById('main');
     idRemember.style.color = (idRemember.style.color == '#1A8FE8');
       
-    localStorage.setItem('hide', 'dark');
+    localStorage.setItem('theme', 'dark');
     
   }
   document.getElementById('light1').onclick = function() {
@@ -24,13 +24,11 @@ document.getElementById('dark1').onclick = function() {
     main.classList.add('light');
 
         
-    const idRemember = document.getElementById('main');
+    let idRemember = document.getElementById('main');
     idRemember.style.color = (idRemember.style.color == '#1A8FE8');
       
-    localStorage.setItem('hide', 'light');
+    localStorage.setItem('theme', 'light');
   }
-
-  
 
   const anchors = document.querySelectorAll('a.up')
   for (let anchor of anchors) {
