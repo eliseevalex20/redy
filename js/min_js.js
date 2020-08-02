@@ -129,7 +129,12 @@ var arrLang = {
         'Roadmap12':'Send us an email if you want to subscribe for alpha, it will be a private test so we will choose',
         'Roadmap13':'of those who subscribed. We will update the development stage info on that page, add that to bookmarks if you’re interested.',
         'Subscribe for alpha':'Subscribe for alpha',
-        'A spot for you': 'A spot for you'
+        'A spot for you': 'A spot for you',
+        'Development' : 'Development 20%',
+        'Financing' : 'Financing 12%',
+        'Team' : 'Team 25%',
+        'Launch' : 'Launch 0%',
+        'View 4 more' : 'View 4 more'
     },
     'ru': {
         'light': 'СВЕТЛАЯ',
@@ -261,7 +266,12 @@ var arrLang = {
         'Roadmap12':'Пришлите нам письмо чтобы подписаться на альфа-версию, она будет тестироваться в закрытом режиме на',
         'Roadmap13':'Мы будем обновлять сведения о проекте на этой странице, добавляйте в закладки и следите если заинтересованы в запуске или хотите поддержать проект.',
         'Subscribe for alpha':'Подписаться на альфа-версию',
-        'A spot for you' :'Место для тебя'
+        'A spot for you' :'Место для тебя',
+        'Development' : 'Разработка 20%',
+        'Financing' : 'Средства 12%',
+        'Team' : 'Команда 25%',
+        'Launch' : 'Запуск 0%',
+        'View 4 more' : 'Показать остальных'
         
     }
 }
