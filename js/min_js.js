@@ -132,7 +132,7 @@ var arrLang = {
         'A spot for you': 'A spot for you',
         'Development' : 'Development 20%',
         'Financing' : 'Financing 12%',
-        'Team' : 'Team 25%',
+        'Team bar' : 'Team 25%',
         'Launch' : 'Launch 0%',
         'View 4 more' : 'View 4 more'
     },
@@ -269,7 +269,7 @@ var arrLang = {
         'A spot for you' :'Место для тебя',
         'Development' : 'Разработка 20%',
         'Financing' : 'Средства 12%',
-        'Team' : 'Команда 25%',
+        'Team bar' : 'Команда 25%',
         'Launch' : 'Запуск 0%',
         'View 4 more' : 'Показать остальных'
         
