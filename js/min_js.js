@@ -134,7 +134,9 @@ var arrLang = {
         'Financing' : 'Financing 12%',
         'Team bar' : 'Team 25%',
         'Launch' : 'Launch 0%',
-        'View 4 more' : 'View 4 more'
+        'View 4 more' : 'View 4 more',
+        'Scroll to top' : 'Scroll to top',
+        'Scroll to top1' : 'Top'
     },
     'ru': {
         'light': 'СВЕТЛАЯ',
@@ -271,7 +273,9 @@ var arrLang = {
         'Financing' : 'Средства 12%',
         'Team bar' : 'Команда 25%',
         'Launch' : 'Запуск 0%',
-        'View 4 more' : 'Показать остальных'
+        'View 4 more' : 'Показать остальных',
+        'Scroll to top': 'Наверх',
+        'Scroll to top1': 'Наверх'
         
     }
 }

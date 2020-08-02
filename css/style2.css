@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bar {
-    border: solid #929292 0.1px;
+    border: solid #FFF0F5 0.1px;
     display: inline-block;
     height: 200px;
     width: 200px;
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 50px;
   }
   .bar:after {
-    border: solid #929292 0.1px;
+    border: solid #FFF0F5 0.05px;
     content: "";
     position: absolute;
     left: 50%;
@@ -448,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
     transform-origin: center;
     fill: none;
     stroke: #007AFF;;
-    stroke-width: 30px;
+    stroke-width: 38px;
     stroke-dasharray: 630px;
     box-shadow: none;
   }
@@ -466,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .svg_h {
     position: absolute;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 1.2;
     font-family: 'Gotham Pro';
     color: var(--color-text-second_h);
@@ -711,6 +711,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @media (max-width: 767px) {
+    svg circle{
+        stroke-width: 27px;
+    }
     html, body{
         overflow-x: hidden;
     }
@@ -1009,7 +1012,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 500px){
     .svg_h{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .slider .next {
         left: 90%!important;
