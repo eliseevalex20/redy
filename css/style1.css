@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 11px 23px;
     font-weight: 400;
     text-decoration: none;
-    color: var(--color-switch);
+     color: #434343;
 
     transition: color .2s linear;
 }
@@ -626,13 +626,11 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
     }
 
-    .content__section {
-        margin-top: 22px;
-    }
-
     .content__section{
         display: flex;
         flex-wrap: wrap;
+        margin-top: 22px;
+        background: #FAFAFA;
     }
 
     .section__img.personal__img {

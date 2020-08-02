@@ -300,12 +300,12 @@ $(function(){
         }
 
     $('#en').click(function(){  
-        $('#en').css('color', '#929292');
+        $('#en').css('color', '#434343');
         $('#ru').css('color', '#1A8FE8');
     })
     $('#ru').click(function(){  
         $('#en').css('color', '#1A8FE8');
-        $('#ru').css('color', '#929292');
+        $('#ru').css('color', '#434343');
     })
 
     $('.translate').click(function(){
