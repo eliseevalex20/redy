@@ -267,13 +267,40 @@ var arrLang = {
 }
 
 $(function(){
-    $('.translate').click(function(){
-        var lang = $(this).attr('id');
+
+    console.log(localStorage)
+    if (localStorage.getItem('lang')) {
+        var lang = localStorage.getItem('lang');
 
         $('.lang').each(function(index, item){
             $(this).text(arrLang[lang][$(this).attr('key')]);
         })
+    }
+
+    if (localStorage.getItem('lang') == 'ru') {
+        $('#en').css('color', '#1A8FE8');
+    }
+
+    if (localStorage.getItem('lang') == 'en') {
+        $('#ru').css('color', '#1A8FE8');
+        }
+
+    $('#en').click(function(){  
+        $('#en').css('color', '#929292');
+        $('#ru').css('color', '#1A8FE8');
+    })
+    $('#ru').click(function(){  
+        $('#en').css('color', '#1A8FE8');
+        $('#ru').css('color', '#929292');
+    })
+
+    $('.translate').click(function(){
+        localStorage.setItem('lang', $(this).attr('id'));
+        var lang = localStorage.getItem('lang');
+
+        $('.lang').each(function(index, item){
+            $(this).text(arrLang[lang][$(this).attr('key')]);
+        })
+
     })
 });
-
-
