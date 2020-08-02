@@ -416,16 +416,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bar {
+    border: solid #929292 0.1px;
     display: inline-block;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     position: relative;
-    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
     overflow: hidden;
     margin: 50px;
   }
   .bar:after {
+    border: solid #929292 0.1px;
     content: "";
     position: absolute;
     left: 50%;
@@ -434,8 +435,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 80%;
     width: 80%;
     border-radius: 50%;
-    box-shadow: inset -3px -3px 7px #ffffffb0,
-      inset 3px 3px 5px rgba(94, 104, 121, 0.692);
   }
   svg {
     width: 100%;
@@ -445,13 +444,13 @@ h1, h2, h3, h4, h5, h6 {
   
   svg circle {
     position: absolute;
-    transform: scale(0.939);
+    border: solid rgba(94, 104, 121, 0.945) 0.1px;
     transform-origin: center;
     fill: none;
     stroke: #007AFF;;
     stroke-width: 30px;
     stroke-dasharray: 630px;
-    /* stroke-dashoffset: 630px; */
+    box-shadow: none;
   }
   .bar:nth-child(1) svg circle {
     animation: bar_1 1s ease forwards;
@@ -731,6 +730,10 @@ h1, h2, h3, h4, h5, h6 {
         display: none;
     }
 
+    .header__link{
+        padding: 10px 18px;
+      
+    }
     
     .intro__title{
         font-size: 22px;
@@ -1006,7 +1009,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 500px){
     .svg_h{
-        font-size: 3.1vw;
+        font-size: 3vw;
     }
     .slider .next {
         left: 90%!important;
