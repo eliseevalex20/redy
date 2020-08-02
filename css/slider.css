@@ -147,3 +147,8 @@
         left: 90%;
     }
 }
+@media (max-width: 500px) {
+    .slider .prev {
+        display: none;
+    }
+}
