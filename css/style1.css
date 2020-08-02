@@ -453,24 +453,30 @@ h1, h2, h3, h4, h5, h6 {
         padding: 10px 18px;
       
     }
+    .intro__item.second {
+        justify-content: space-evenly;
 
+    }
    
 }   
 
 @media (max-width: 1024px) {
     /* Intro */
     .intro__title {
-        font-size: 28px; 
+        font-size: 25px; 
     }
     .intro__info {
-        font-size: 21px; 
+        font-size: 19px; 
     }
 
     .intro__rew {
-        font-size: 21px;
+        font-size: 19px;
+    }
+    .intro__item {
+        padding: 0px 10px;
     }
     .intro__img {
-        max-width: 287px;
+        max-width: 229px;
         padding-top: 40px;
     }
     .intro__button {
@@ -482,6 +488,14 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 40px;
     }
 
+    .intro__item.second {
+        justify-content: space-evenly;
+
+    }
+
+    .intro__column.first__column {
+        margin-right: 0px;
+    }
      /* section */
      .content__section{
          max-height: none;
@@ -507,7 +521,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-@media (max-width: 786px) {
+@media (max-width: 767px) {
     html{
         overflow-x: hidden;
     }

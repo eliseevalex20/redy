@@ -617,25 +617,34 @@ h1, h2, h3, h4, h5, h6 {
 
 }    
 
-@media (max-width: 990px) {
+@media (max-width: 1024px) {
     .mob{
         display: block;
     }
     /* Intro */
     .intro__title {
-        font-size: 28px; 
+        font-size: 25px; 
     }
     .intro__info {
-        font-size: 21px; 
+        font-size: 19px; 
     }
 
     .intro__rew {
-        font-size: 21px;
+        font-size: 19px;
     }
     .intro__img {
-        max-width: 287px;
+        max-width: 229px;
         padding-top: 40px;
     }
+    .intro__item {
+        padding: 0px 10px;
+    }
+  
+    .bar {
+        margin: 0;
+    }
+
+   
     .intro__button {
         margin-bottom: 17px;
         font-size: 15px;
@@ -690,7 +699,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     html, body{
         overflow-x: hidden;
     }
