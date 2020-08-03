@@ -86,6 +86,7 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
+    left: 0px;
 }
 .slider-dots_item{
     cursor: pointer;
