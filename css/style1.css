@@ -26,7 +26,7 @@ html.light{
     --secondary-shadow_head: 0px 2px 4px rgba(130, 130, 130, 0.5);
     --div-color: #F2F2F2;
     --link-color-active: #1A8FE8;
-    --link-color-reset: rgba(0, 0, 0, 0.25);
+    --link-color-reset: #434343;
 }
 
 
@@ -44,7 +44,7 @@ html.dark{
     --secondary-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.5);
     --secondary-shadow_head: inset 0px -1px 5px rgba(209, 209, 209, 0.5);
     --div-color: #F2F2F2;
-    --link-color-active: rgba(0, 0, 0, 0.25);
+    --link-color-active: #434343;
     --link-color-reset: #1A8FE8;
 
 }

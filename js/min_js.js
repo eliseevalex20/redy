@@ -293,10 +293,14 @@ $(function(){
 
     if (localStorage.getItem('lang') == 'ru') {
         $('#en').css('color', '#1A8FE8');
+    
+        $('#ru').css('color', '#434343');
     }
 
     if (localStorage.getItem('lang') == 'en') {
+        $('#en').css('color', '#434343');
         $('#ru').css('color', '#1A8FE8');
+    
         }
 
     $('#en').click(function(){  
