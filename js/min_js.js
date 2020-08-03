@@ -39,7 +39,7 @@ var arrLang = {
         'Changelog2.4': 'to discuss ',
         'Changelog2.5': 'or ',
         'Changelog2.6': 'More informartion about the project, including the concept and roadmap can be found via the link below.',
-        'Lern more': 'Lern more',
+        'Lern more': 'Learn more',
         'Contact us': 'Contact us',
         'Portfolio': 'Portfolio',
         'Portfolio1': 'I’ve taken a part in many international projects, as well as in working with the largest companies in  my native country —',
